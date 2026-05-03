@@ -8,6 +8,10 @@ import { Platform } from 'react-native';
 const tintColorLight = '#0a7ea4';
 const tintColorDark = '#fff';
 
+// Colores de acento púrpura
+const purplePrimary = '#9D4EDD';
+const purpleSecondary = '#6A0DAD';
+
 export const Colors = {
   light: {
     text: '#11181C',
@@ -16,6 +20,8 @@ export const Colors = {
     icon: '#687076',
     tabIconDefault: '#687076',
     tabIconSelected: tintColorLight,
+    purple: purplePrimary,
+    purpleSecondary: purpleSecondary,
   },
   dark: {
     text: '#ECEDEE',
@@ -24,6 +30,8 @@ export const Colors = {
     icon: '#9BA1A6',
     tabIconDefault: '#9BA1A6',
     tabIconSelected: tintColorDark,
+    purple: purplePrimary,
+    purpleSecondary: purpleSecondary,
   },
 };
 

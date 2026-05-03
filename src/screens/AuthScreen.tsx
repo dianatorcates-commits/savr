@@ -1,5 +1,5 @@
-import { auth } from '../services/firebase';
 import { signOut as firebaseSignOut, onAuthStateChanged, User } from 'firebase/auth';
+import { auth } from '../services/firebase';
 import { createOrUpdateUser, getUserProfile } from '../services/firebaseUsers';
 import { UserProfile } from '../types';
 
